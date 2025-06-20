@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;     /* centers vertically */
+  height: 100vh;           /* full viewport height */
+  width: 100vw;            /* full viewport width */
+}
+
+.item-1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
